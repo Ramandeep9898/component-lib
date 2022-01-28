@@ -1,0 +1,36 @@
+.navbar{
+    padding: 50px 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar-logo{
+    background-image: url(../../logo/logo.png);
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+.navbar-list{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    text-transform: capitalize;
+    color: var(--sec-dark-purple);
+    font-size: var(--navbar20);
+    line-height: 12px;
+    font-family: "sofia-pro",sans-serif;
+    font-weight: 500;
+}
+.navbar-list-item{
+    text-decoration: none;
+}
+.icons{
+    width: 24px;
+    height: 24px;
+    color: var(--icons-grey);
+}
+.navbar-list-item:hover{
+    color: var(--primary-yellow);
+}
